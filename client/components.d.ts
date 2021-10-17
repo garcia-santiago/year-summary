@@ -5,12 +5,9 @@
 declare module 'vue' {
   export interface GlobalComponents {
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
-    CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
-    EditarProyectos: typeof import('C:/SANTIAGO/Proyectos/tests/sgarcia-tech/client/src/components/EditarProyectos.vue')['default']
-    Proyectos: typeof import('C:/SANTIAGO/Proyectos/tests/sgarcia-tech/client/src/components/Proyectos.vue')['default']
-    Top: typeof import('C:/SANTIAGO/Proyectos/tests/template-vue-vite-node/client/src/components/Top.vue')['default']
+    Top: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/Top.vue')['default']
   }
 }
 
