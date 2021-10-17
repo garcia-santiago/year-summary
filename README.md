@@ -27,3 +27,9 @@ npm install
 //En template-vue-vite-node
 npm run dev
 ```
+
+##### Desplegando en heroku
+```
+En variables del entorno
+NPM_CONFIG_PRODUCTION = false
+```
