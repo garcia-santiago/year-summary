@@ -14,10 +14,13 @@ html{
 }
 
 .btn {
-  @apply px-4 py-1 rounded inline-block
+  @apply px-4 py-2 rounded inline-block
     bg-light-blue-900 text-gray-100 cursor-pointer
-    hover:bg-cyan-700
-    disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50;
+    disabled:cursor-not-allowed disabled:bg-gray-600 disabled:opacity-50
+    transition !duration-300 rounded font-bold  transform hover:scale-110 hover:-translate-y-1 disabled:hover:scale-100 disabled:hover:-translate-y-0;
+}
+.spoti{
+  background-color: #1fd662;
 }
 
 .icon-btn {
@@ -28,4 +31,7 @@ html{
 }
 .input{
   @apply block mx-auto my-2 rounded text-blue-gray-700;
+}
+td{
+  @apply border border-dark-400 py-1 px-2;
 }

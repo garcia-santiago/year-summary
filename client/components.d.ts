@@ -7,6 +7,8 @@ declare module 'vue' {
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
+    GetTops: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/GetTops.vue')['default']
+    GetYear: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/GetYear.vue')['default']
     Top: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/Top.vue')['default']
   }
 }
