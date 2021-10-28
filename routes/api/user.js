@@ -11,7 +11,8 @@ router.post('/token', (req, res) => {
     try{
         const {code} = req.body
         const grant_type = "&grant_type=authorization_code"
-        const redirect_uri = "&redirect_uri=http://localhost:3333/"
+        // const redirect_uri = "&redirect_uri=http://localhost:3333/" Dev
+        const redirect_uri = "&redirect_uri=https://year-summary.herokuapp.com/"
         const client_id = "&client_id=8f4b90e854a8466e98424b0310ec4e63"
         const client_secret = "&client_secret=ff3e4108f830491aadd3c57b85496eb8"
 

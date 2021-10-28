@@ -12,7 +12,8 @@ const nombre = ref("")
 const authLogin = () => {
   const client_id: string = "?client_id=8f4b90e854a8466e98424b0310ec4e63"
   const response_type: string = "&response_type=code"
-  const redirect_uri: string = "&redirect_uri=http://localhost:3333/" 
+  // const redirect_uri: string = "&redirect_uri=http://localhost:3333/" dev
+  const redirect_uri: string = "&redirect_uri=https://year-summary.herokuapp.com/" 
   const scope: string = "&scope=user-top-read user-read-recently-played"
 
   const url = "https://accounts.spotify.com/authorize"+client_id+response_type+redirect_uri+scope
