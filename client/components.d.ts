@@ -4,11 +4,15 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    CarbonHelp: typeof import('~icons/carbon/help')['default']
+    CarbonHome: typeof import('~icons/carbon/home')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
+    Footer: typeof import('./src/components/MyFooter.vue')['default']
     GetTops: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/GetTops.vue')['default']
     GetYear: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/GetYear.vue')['default']
+    MyFooter: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/MyFooter.vue')['default']
     Top: typeof import('C:/SANTIAGO/Proyectos/year-summary/client/src/components/Top.vue')['default']
   }
 }
